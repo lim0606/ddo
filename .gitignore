@@ -1,0 +1,7 @@
+*.sw*
+__pycache__
+*.out
+saved
+*.pyr
+*.ipynb_checkpoints
+*.pt
