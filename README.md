@@ -11,7 +11,7 @@ by Jae Hyun Lim\*, Nikola B Kovachki\*, Ricardo Baptista\*, Christopher Beckham,
 ## Experiments on Gaussian Mixture, Navier-Stokes, and Volcano Dataset
 We will update the repo soon.
 
-## Experiments on MNIST-SDF
+## Experiments on MNIST-SDF Dataset
 Here's example command lines for training DDO and GANO models
 
 ### DDO
