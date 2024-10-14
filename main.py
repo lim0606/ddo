@@ -758,6 +758,8 @@ def test(args):
         train_args.s_min = args.s_min
         train_args.eval_lmbd = args.eval_lmbd
 
+        train_args.data = args.data
+
         args = train_args
         gen_sde_optimizer = None
         args.eval_use_ema = False
@@ -942,7 +944,7 @@ def get_args(*args, **kwargs):
                         help='EMA decay factor')
     parser.add_argument('--weight_decay', type=float, default=0.,
                         help='weight decay')
-    parser.add_argument('--optimizer', type=str, default='adamw', choices=['adam', 'adamw'])
+    parser.add_argument('--optimizer', type=str, default='adam', choices=['adam', 'adamw'])
     parser.add_argument('--beta1', type=float, default=0.9,
                         help='beta1 of Adam optimizer')
     parser.add_argument('--beta2', type=float, default=0.999,
